@@ -18,4 +18,12 @@ Symbol        |Name           |Description
   Expression  | Description
 ------------- | -------------
 \A  | Matches if the specified characters are at the start of a string.
-Content Cell  | Content Cell
+\b  | Matches if the specified characters are at the beginning or end of a word.
+\B  | Matches if the specified characters are not at the beginning or end of a word.
+\d  | Matches any decimal digit. Equivalent to [0-9]
+\D  | Matches any non-decimal digit. Equivalent to [^0-9]
+\s  | Matches where a string contains any whitespace character. Equivalent to [ \t\n\r\f\v].
+\S  | Matches where a string contains any non-whitespace character.
+\w  | Matches any alphanumeric character (digits and alphabets). Equivalent to [a-zA-Z0-9_].
+\W  | Matches any non-alphanumeric character. Equivalent to [^a-zA-Z0-9_]
+\Z  | Matches if the specified characters are at the end of a string.
